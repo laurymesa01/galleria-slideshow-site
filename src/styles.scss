@@ -2,3 +2,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.h1{
+  @apply text-light-grey font-bold text-[100px] leading-[100px] md:text-[200px]  md:leading-[150px];
+}
+
+.h2{
+  @apply text-black font-bold text-[24px] leading-[29px] md:text-[56px]  md:leading-[64spx];
+}
+
+.h3{
+  @apply font-bold text-[24px] leading-[29px];
+}
+
+.h4{
+  @apply font-bold text-[18px] leading-[22px];
+}
+
+.subhead1{
+  @apply text-black font-medium text-[15px] leading-[19px];
+}
+
+.subhead2{
+  @apply text-black font-medium text-[13px] leading-[17px];
+}
+
+.link1{
+  @apply text-dark-grey hover:text-black font-bold text-[12px] leading-[15px] tracking-[2.57px];
+}
+
+.link2{
+  @apply text-dark-grey hover:text-black font-bold underline text-[9px] leading-[11px] tracking-[2px];
+}
+
+.body{
+  @apply text-dark-grey font-bold text-[14px] leading-[29px]
+}
+
+
+
