@@ -1,8 +1,12 @@
-<section>
-  <a href="">
-    <div>
-      <h2></h2>
-      <p></p>
-    </div>
-  </a>
+<section class="mt-6">
+  @for (painting of paintings(); track $index) {
+    <a href="">
+      <div>
+        <img [src]="painting.images.thumbnail" alt="">
+        <h3 class="h3">{{painting.name}}</h3>
+        <p class="subhead2">{{painting.artist.name}}</p>
+      </div>
+    </a>
+  }
+
 </section>
