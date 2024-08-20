@@ -11,6 +11,9 @@ module.exports = {
       'medium-grey': '#E5E5E5',
       'light-grey': '#F3F3F3',
       'white': '#FFFFFF'
+    },
+    fontFamily: {
+      'baskerville': 'Libre Baskerville'
     }
   },
   plugins: [],
